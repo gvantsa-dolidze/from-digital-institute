@@ -1,13 +1,69 @@
 body {
     margin:0;
     padding:0;
-    background-color: rgba(255, 255, 255, 1);;
-}
-header, main, footer {
-    width:100%;
-    max-width: 1440px;
+    background-color: rgba(255, 255, 255, 1);
+    font-family: "Ubuntu", sans-serif;
 }
 
-.first, footer {
+h1 {
+    padding:0;
+    margin:0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    color:rgba(80, 93, 104, 1);
+}
+.container {
+    padding-right:119px;
+    padding-left:119px;
+}
+.nav a {
+    color:rgba(44, 181, 180, 1);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20.68px;
+}
+.btn-primary {
+    background-color: rgba(44, 181, 180, 1);
+    border:none;
+    border-radius:5px;
+    width:168px;
+    height:40px;   
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13.79px;
+}
+.first-section h2, .third-section h2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    color: rgba(61, 93, 121, 1);
+}
+.first-section span {
+    font-weight: 500;
+    font-size:16px;
+    line-height: 24px;
+    color: rgba(144, 154, 161, 1);
+}
+.second-section h2 {
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 75.83px;
+    color: rgba(61, 93, 121, 1);
+}
+.second-section .card  {
+    color: rgba(44, 181, 180, 1);
+    font-weight: 400;
+    font-size:26px;
+    line-height: 35px;
+}
+footer h2 {
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 31px;
+   color:rgba(61, 93, 121, 1); 
+}
+.first-section, footer {
     background-color: rgba(207, 243, 243, 1);
 }
+
