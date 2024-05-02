@@ -13,10 +13,7 @@ h1 {
     line-height: 23px;
     color:rgba(80, 93, 104, 1);
 }
-.container {
-    padding-right:119px;
-    padding-left:119px;
-}
+
 .nav a {
     color:rgba(44, 181, 180, 1);
     font-weight: 500;
@@ -57,6 +54,26 @@ h1 {
     font-size:26px;
     line-height: 35px;
 }
+
+.n {
+font-weight: 700;
+font-size: 17px;
+line-height: 31px;
+color:rgba(61, 93, 121, 1);
+}
+.title{
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 33px;
+    color:rgba(61, 93, 121, 1);
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color:rgba(44, 181, 180, 1);
+}
+
 footer h2 {
    font-weight: 700;
    font-size: 30px;
